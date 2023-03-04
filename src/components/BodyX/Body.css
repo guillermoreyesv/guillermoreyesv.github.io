@@ -8,8 +8,30 @@ section {
   scroll-margin-top: 100px; 
 }
 
-h2 {
+#sobre-mi{
+  padding-top: 5vh; 
+}
+
+h1 {
   font-size: 36px;
+}
+
+.button-especial {
+  border: none;
+  border-color: initial;
+  border-radius: 0.2rem;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1.5rem;
+  color: #2d2e32;
+  background-color: #cfcfcf;
+  font-size: .8rem;
+  font-weight: 600;
+  cursor: text;
+  width: fit-content;
+}
+
+.description{
+  text-align: justify;
 }
 
 p {
@@ -47,6 +69,9 @@ li a {
   flex-basis: 50%;
   padding: 10px;
   box-sizing: border-box;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .item-img{
@@ -58,6 +83,24 @@ li a {
   justify-content: center;
   align-items: center;
 }
+
+.img-technologies img{
+  max-width: 10%;
+  padding: 5px;
+  filter: grayscale(100%);
+}
+
+.img-technologies img:hover{
+  filter: grayscale(0%);
+}
+
+.img-technologies{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
 
 @media (max-width: 768px) {
   .flex-container {
