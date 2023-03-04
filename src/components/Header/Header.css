@@ -6,7 +6,7 @@ header {
   color: #fff;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   padding: 20px;
 }
   
@@ -25,4 +25,17 @@ nav ul li {
 nav ul li a {
   color: #fff;
   text-decoration: none;
+}
+
+.contact ul li{
+  margin: 0 4px;
+
+}
+
+.contact img{
+  width: 25px;
+  filter: grayscale(100%);
+}
+.contact img:hover{
+  filter: grayscale(0%);
 }
