@@ -5,7 +5,7 @@ import github from '../../images/github.webp'
 import docker from '../../images/docker.webp'
 import thingiverse from '../../images/thingiverse.webp'
 
-function Header() {
+export default function Header() {
   return (
     <header>
       <nav>
@@ -17,22 +17,22 @@ function Header() {
       <nav className='contact'>
         <ul>
           <li>
-            <a href='https://www.linkedin.com/in/guireyes/' target='_blank'>
+            <a rel="noreferrer" href='https://www.linkedin.com/in/guireyes/' target='_blank'>
               <img alt='LinkedIn' title='LinkedIn' src={linkedin} />
             </a>
           </li>
           <li>
-            <a href='https://github.com/guillermoreyesv' target='_blank'>
+            <a rel="noreferrer" href='https://github.com/guillermoreyesv' target='_blank'>
               <img alt='GitHub' title='GitHub' src={github} />
             </a>
           </li>
           <li>
-            <a href='https://hub.docker.com/u/guillermoreyes' target='_blank'>
+            <a rel="noreferrer" href='https://hub.docker.com/u/guillermoreyes' target='_blank'>
               <img alt='Docker' title='Docker' src={docker} />
             </a>
           </li>
           <li>
-            <a href='https://www.thingiverse.com/memokunmx/designs' target='_blank'>
+            <a rel="noreferrer" href='https://www.thingiverse.com/memokunmx/designs' target='_blank'>
               <img alt='Thingiverse' title='Thingiverse' src={thingiverse} />
             </a>
           </li>
@@ -41,5 +41,3 @@ function Header() {
     </header>
   );
 }
-
-export default Header;

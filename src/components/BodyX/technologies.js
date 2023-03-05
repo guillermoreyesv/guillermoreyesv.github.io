@@ -9,7 +9,7 @@ import js from '../../images/js.webp';
 import docker from '../../images/docker.webp';
 import github from '../../images/github.webp';
 
-export default function() {
+export default function Technologies() {
   
   return (
     <div className='img-technologies'>

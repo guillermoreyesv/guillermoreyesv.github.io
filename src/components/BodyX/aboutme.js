@@ -3,7 +3,7 @@ import './Body.css';
 import avatar from '../../images/avatar.webp';
 import Technologies from './technologies';
 
-export default function() {
+export default function Aboutme() {
     const initYear = 2018;
     const date = new Date();
     const currentYear = date.getFullYear();
@@ -11,7 +11,7 @@ export default function() {
     return (
     <div className="flex-container">
         <div className="item-img">
-            <img rel="preconnect" className='avatar' alt='profile image' src={avatar}/>
+            <img rel="preconnect" loading='lazy' className='avatar' alt='profile' src={avatar}/>
         </div>
         <div className="item">
         <h1>Guillermo Reyes</h1>

@@ -3,7 +3,7 @@ import './Body.css';
 import Projects from './projects';
 import Aboutme from './aboutme';
 
-function Body() {
+export default function Body() {
 
   return (
     <main>
@@ -16,5 +16,3 @@ function Body() {
     </main>
   );
 }
-
-export default Body;

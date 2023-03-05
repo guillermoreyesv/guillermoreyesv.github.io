@@ -1,7 +1,7 @@
-import {React, useState} from 'react';
+import {React} from 'react';
 import './Footer.css';
 
-function Footer() {
+export default function Footer() {
   const date = new Date();
   const currentYear = date.getFullYear();
   const autor = 'Guillermo Reyes'
@@ -11,5 +11,3 @@ function Footer() {
     </footer>
   );
 }
-
-export default Footer;
