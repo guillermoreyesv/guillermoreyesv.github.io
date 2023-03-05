@@ -3,6 +3,7 @@ import './ProjectTile.css';
 import PropTypes from 'prop-types';
 
 
+
 export default function ProjectTile(props) {
   const { src, alt, title, description, asrc, tecnologies=[] } = props;
   return (
@@ -14,7 +15,7 @@ export default function ProjectTile(props) {
           <p className="project-description">{description}</p>
           <div className='technologie-container'>
             {tecnologies.map(imagen => (
-              <img className='technologie-icon' src={imagen} />
+              <img alt={imagen.split('/').pop().split('.')[0]} key={imagen} className='technologie-icon' src={imagen} />
             ))}
             
           </div>
