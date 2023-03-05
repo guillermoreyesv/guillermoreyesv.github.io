@@ -17,22 +17,22 @@ function Header() {
       <nav className='contact'>
         <ul>
           <li>
-            <a title='LinkedIn' href='https://www.linkedin.com/in/guireyes/' target='_blank'>
+            <a alt='LinkedIn' title='LinkedIn' href='https://www.linkedin.com/in/guireyes/' target='_blank'>
               <img src={linkedin} />
             </a>
           </li>
           <li>
-            <a title='GitHub' href='https://github.com/guillermoreyesv' target='_blank'>
+            <a alt='GitHub' title='GitHub' href='https://github.com/guillermoreyesv' target='_blank'>
               <img src={github} />
             </a>
           </li>
           <li>
-            <a title='Docker' href='https://hub.docker.com/u/guillermoreyes' target='_blank'>
+            <a alt='Docker' title='Docker' href='https://hub.docker.com/u/guillermoreyes' target='_blank'>
               <img src={docker} />
             </a>
           </li>
           <li>
-            <a title='Thingiverse' href='https://www.thingiverse.com/memokunmx/designs' target='_blank'>
+            <a alt='Thingiverse' title='Thingiverse' href='https://www.thingiverse.com/memokunmx/designs' target='_blank'>
               <img src={thingiverse} />
             </a>
           </li>

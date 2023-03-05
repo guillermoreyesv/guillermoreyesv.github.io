@@ -60,8 +60,7 @@ li a {
 
 .flex-container {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 .avatar{
@@ -70,7 +69,7 @@ li a {
 }
 
 .item {
-  flex-basis: 50%;
+  flex-basis: 65%;
   padding: 10px;
   box-sizing: border-box;
   justify-content: center;
@@ -79,14 +78,14 @@ li a {
 }
 
 .item-img{
-  flex-basis: 50%;
-  padding: 10px;
+  padding: 50px;
   box-sizing: border-box;
 
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 
 .img-technologies img{
   max-width: 10%;

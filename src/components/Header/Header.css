@@ -33,7 +33,9 @@ nav ul li a {
 }
 
 .contact img{
-  width: 25px;
+  max-width: 25px;
+  min-width: 10px;
+  width: 5vw;
   filter: grayscale(100%);
 }
 .contact img:hover{
