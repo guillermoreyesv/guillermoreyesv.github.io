@@ -1,0 +1,57 @@
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+.project {
+    margin: 20px;
+    border: solid 1px rgb(92, 92, 92);
+    border-radius: 5px;
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.3s ease;
+}
+
+.project:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1); 
+}
+
+.project-preview {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.project-details {
+    padding: 20px;
+}
+
+.project-title {
+    font-size: 1.5rem;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.project-description {
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.technologie-icon{
+    width: 30px;
+    padding: 5px;
+}
+
+.technologie-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}

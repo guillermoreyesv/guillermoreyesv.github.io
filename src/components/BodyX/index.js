@@ -4,7 +4,7 @@ import Projects from './projects';
 import Aboutme from './aboutme';
 
 export default function Body() {
-
+  
   return (
     <main>
       <section id="sobre-mi">
