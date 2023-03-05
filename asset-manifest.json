@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.158403e1.css",
+    "main.js": "/static/js/main.ed15b1e0.js",
+    "static/media/cuantoBache.webp": "/static/media/cuantoBache.474774ec9bf420411eb4.webp",
+    "static/media/avatar.webp": "/static/media/avatar.9e1c3acd3977d6d7cb0e.webp",
+    "static/media/IA-inchestocm.webp": "/static/media/IA-inchestocm.b6a0ef5a219df518dcf9.webp",
+    "static/media/personalFlix.webp": "/static/media/personalFlix.3e1c96912ae8d1d96b9d.webp",
+    "static/media/portfolio.webp": "/static/media/portfolio.8cf4ecb8c39ef4c795f0.webp",
+    "static/media/comicList.webp": "/static/media/comicList.8ad1133e788aa9b42c33.webp",
+    "static/media/managmentUser.webp": "/static/media/managmentUser.aaa5f3c1e297f595051a.webp",
+    "static/media/postgres.webp": "/static/media/postgres.35d8c101f3e5f6cc35e3.webp",
+    "static/media/layawayComic.webp": "/static/media/layawayComic.697199a6c23f43fd569c.webp",
+    "static/media/mongodb.webp": "/static/media/mongodb.39d3c574c3313623f52f.webp",
+    "static/media/searchComics.webp": "/static/media/searchComics.939f6ee87d3dc5209a80.webp",
+    "static/media/mysql.webp": "/static/media/mysql.dffe0ef4cdf951357b8a.webp",
+    "static/media/react.webp": "/static/media/react.4c0bbd51a4d9ecf2dfcd.webp",
+    "static/media/php.webp": "/static/media/php.ab5a8fa29ecb295ec98b.webp",
+    "static/media/docker.webp": "/static/media/docker.14933c86c1246321be97.webp",
+    "static/media/python.webp": "/static/media/python.9a5b43afcc0d22d4a219.webp",
+    "static/media/thingiverse.webp": "/static/media/thingiverse.e79cb612d1834309ee1e.webp",
+    "static/media/js.webp": "/static/media/js.7e16aa49d1ca330b7c7b.webp",
+    "static/media/github.webp": "/static/media/github.ae64e008a4cc3531c643.webp",
+    "static/media/linkedin.webp": "/static/media/linkedin.0b4dee27b227ff1ec9b5.webp",
+    "static/media/laravel.webp": "/static/media/laravel.f06883acb4e826af5498.webp",
+    "static/media/flask.webp": "/static/media/flask.4d2b98d7523607dbd3b4.webp",
+    "static/media/tensorflow.webp": "/static/media/tensorflow.b622f297eb934ab8d2e1.webp",
+    "static/media/loveRadar.webp": "/static/media/loveRadar.73113429488d0a4f75d7.webp",
+    "static/media/keras.webp": "/static/media/keras.80cad3845641580915b4.webp",
+    "static/media/bootstrap.webp": "/static/media/bootstrap.917693d033c3cd3411cc.webp",
+    "index.html": "/index.html",
+    "main.158403e1.css.map": "/static/css/main.158403e1.css.map",
+    "main.ed15b1e0.js.map": "/static/js/main.ed15b1e0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.158403e1.css",
+    "static/js/main.ed15b1e0.js"
+  ]
+}
