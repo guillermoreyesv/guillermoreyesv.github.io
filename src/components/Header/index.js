@@ -17,23 +17,23 @@ function Header() {
       <nav className='contact'>
         <ul>
           <li>
-            <a alt='LinkedIn' title='LinkedIn' href='https://www.linkedin.com/in/guireyes/' target='_blank'>
-              <img src={linkedin} />
+            <a href='https://www.linkedin.com/in/guireyes/' target='_blank'>
+              <img alt='LinkedIn' title='LinkedIn' src={linkedin} />
             </a>
           </li>
           <li>
-            <a alt='GitHub' title='GitHub' href='https://github.com/guillermoreyesv' target='_blank'>
-              <img src={github} />
+            <a href='https://github.com/guillermoreyesv' target='_blank'>
+              <img alt='GitHub' title='GitHub' src={github} />
             </a>
           </li>
           <li>
-            <a alt='Docker' title='Docker' href='https://hub.docker.com/u/guillermoreyes' target='_blank'>
-              <img src={docker} />
+            <a href='https://hub.docker.com/u/guillermoreyes' target='_blank'>
+              <img alt='Docker' title='Docker' src={docker} />
             </a>
           </li>
           <li>
-            <a alt='Thingiverse' title='Thingiverse' href='https://www.thingiverse.com/memokunmx/designs' target='_blank'>
-              <img src={thingiverse} />
+            <a href='https://www.thingiverse.com/memokunmx/designs' target='_blank'>
+              <img alt='Thingiverse' title='Thingiverse' src={thingiverse} />
             </a>
           </li>
         </ul>
